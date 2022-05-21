@@ -1,0 +1,309 @@
+
+
+
+body{  
+    font-family:'Montserrat', sans-serif;   
+    display: grid;
+    background-color: #014649;
+     
+}
+* {
+    list-style:none
+}
+
+.container1 {
+    background-color: whitesmoke;
+    
+}
+
+.titulo {
+    color: #014649;
+    font-size: xxx-large;
+    text-size-adjust: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: auto;
+    padding-top: 5px;
+        
+}
+
+.logo{
+    background-color: whitesmoke;
+    display: flex;
+    min-width: 25vw;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px; 
+    padding-right: 40px;
+    box-sizing: content-box;
+    float: left;
+}
+
+.menu1{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 80px;
+    left: 60px;
+    
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px; 
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+}
+
+
+nav a:hover{
+    background-color: #03979f;
+    text-emphasis-color: white;
+    
+}
+
+.Presentación1{
+    background-color: #014649;
+
+    font: bold; color: white; font-size: xx-large;
+    justify-content: flex-start;
+    width: 60vw;
+    text-align: center; 
+    padding: 20px;
+    min-height: 80px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    top: -140px;
+    left: 20px;
+     
+    
+  
+}
+
+.Redes{
+    background-color: #014649;
+    font: bold; color: white; font-size: medium; font-style: italic;
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 10px;
+    padding-right: 20px;
+    float: right;
+    
+    
+}
+
+#redes {
+    background-color: #014649;
+
+}
+.Presentación2{
+    background-color: #ad7505;
+    font: bold; color: white; font-size: x-large;
+    width: 60vw;
+    text-align: center; 
+    margin-left: 310px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -170px;
+    left: 50px;
+    
+}
+
+.Grecia{
+    background-color: aqua;
+    opacity: 0.46;
+    float: right;
+    width: 20px;
+    position: relative;
+    top: -200px;
+    left: 310px;
+    
+
+}
+
+.Comofunciona{
+    background-color: #014649;
+    font: bold; color: white; font-size: large; font-style: italic;
+    width: 30vw;
+    text-align: justify; 
+    padding: 5px;
+    min-height: 80px;
+    margin: 10px;
+    flex-wrap: wrap;
+    display: flex;
+    position: relative;
+    top: -400px;
+    left: 550px;
+}
+
+.Diseñatucuadro1{
+    background-color: #63346e;
+    font: bold; color: white; font-size: x-large;
+    width: 45vw;
+    text-align: center; 
+    margin-left: 310px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -360px;
+    left: 190px;
+    z-index: 100;
+
+}
+
+.FLorazul{
+    opacity: 0.46;
+    float: left;
+    width: 20vw;
+    position: relative;
+    top: -420px;
+    left: 290px;
+    z-index: 200;
+    
+    
+}
+
+.Tenesdudas{
+    background-color: #bf7e00;
+    font: bold; color: white; font-size: x-large;
+    width: 40vw;
+    text-align: center; 
+    margin-left: 310px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: -230px;
+    left: 250px;
+    z-index: 250;
+
+}
+
+.Grecia17{
+    opacity: 0.46;
+    float: left;
+    width: 20vw;
+    position: relative;
+    top: -260px;
+    left: 680px;
+    z-index: 300;
+}
+
+.container2 {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    
+}
+
+.imagen {
+    background-color: #814090;
+
+    font: bold; color: white; font-size: large;
+    position: relative;
+    
+    
+}
+
+.tamano {
+    background-color: #bf7e00;
+    font: bold; color: white; font-size: large;
+    position: relative;
+}
+
+
+.marco{
+    background-color: #814090;
+    font: bold; color: white; font-size: large;
+    position: relative;
+}
+
+
+a.button2{
+    display:inline-block;
+    padding:0.5em 3em;
+    border:0.16em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-style: italic;
+    font-family:'Roboto',sans-serif;
+    font-weight:400;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.15s;
+    }
+    a.button2:hover{
+    color:#DDDDDD;
+    border-color:#DDDDDD;
+    }
+    a.button2:active{
+    color:#BBBBBB;
+    border-color:#BBBBBB;
+    }
+    @media all and (max-width:30em){
+    a.button2{
+    display:block;
+    margin:0.4em auto;
+    }
+    }
+
+
+.Italia2{
+    opacity: 0.46;
+    float: left;
+    width: 18vw;
+    height: 60px;
+    position: relative;
+    top: -55px;
+    left: 770px;
+    
+}
+
+.footer{
+    background-color: black;
+    font: bold; color: white; font-size: large;
+}
+
+.direccion {
+    text-align: center;
+    font-style: italic; 
+
+}
+
+.comunicate {
+    text-align: center;
+    background-color: whitesmoke;
+    font: bold; color: #014649; font-size: medium;
+    font-style: italic;
+    width: 30vw;
+    margin-left: 120px;
+
+
+}
+.comollegar {
+    text-align: justify;
+    margin-left: 80px;
+    padding-left: 40px;
+    font: bold; color: white; font-size: larger;
+
+}
+p {
+    margin-left: 10px;
+    padding-left: 15px;
+    font-family: cursive;
+}

@@ -1,0 +1,155 @@
+body{
+    
+    justify-content: center;
+    font-family:'Montserrat', sans-serif;    
+}
+/*.container{
+    display: flex;
+    width: 100vw;
+    background-color:whitesmoke;
+    flex-direction: column;
+    
+    font: bold; color: white;
+    
+}*/
+
+header{
+    width: 100vw;
+    height: 10vw;
+    background-color: whitesmoke;
+}
+
+.logo{
+    width: 50%;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-bottom: 5px;
+    float: left;
+    display: flex;
+    justify-items: start;
+    justify-content: flex-start;
+    
+}
+.menu{
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 120px;
+    padding-top: 50px;
+    
+    
+   }
+
+nav a{
+    width: 60px;
+    height: 40px;
+    text-decoration: none;
+    justify-content: center;
+    margin: 10px;
+    padding-top: 15px;
+   
+    padding-right: 40px;
+    padding-left: 40px;       
+    font-size: small;
+    font-style: italic;
+}
+
+nav a:hover{
+    background-color: #03979f;
+    text-emphasis-color: white;
+}
+
+section{
+    background-color: #03979f;
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+}
+.Presentacion1{
+    display: flex;
+    width: 85vw;
+    background-color: #03979f;
+    flex-direction: column;
+    font: bold; color: white; font-size: xx-large;
+    text-align: center; 
+    margin: 10px;
+    flex-wrap: nowrap;  
+    
+} 
+
+.Redes{
+    display: flex;
+    width: 5vw;
+    background-color: #03979f;
+    flex-direction: column;
+    justify-content: flex-end;    
+    flex-wrap: wrap;
+}
+
+.Presentación2{
+    display: flex;
+    width:35vw;
+    background-color: #bf7e00;
+    flex-direction: column;
+    font: bold; color: white; font-size: x-large;
+    text-align: center; 
+    margin: 15px;
+    padding: 20px;
+    padding-right: 50px;
+    flex-wrap: nowrap;
+}
+
+.Grecia{
+    max-height: 80px;
+    max-width: 40px;
+    opacity: 0.46;
+    flex-wrap: nowrap;
+    display: inline-table;
+    padding: 30px;
+    margin-top: 10vw;
+    margin-left: 20vw;
+       
+}
+h2{
+    width: 120px;
+    text-align: left;
+    font-size: xx-large;
+    display:inline;
+    padding: 40px;
+    justify-content: space-around;
+    justify-items: baseline;
+    margin-top: 25vw;
+    margin-left: 10vw;
+    
+}
+.Comofunciona{
+    padding: 20px;    
+    font: bold; color: white; 
+    
+    
+}
+
+.Diseñatucuadro{
+    list-style-type: circle;
+    list-style-position: inside;
+
+
+}
+.FLorazul{
+    max-height: 80px;
+    max-width: 40px;
+    opacity: 0.46;
+    flex-wrap: nowrap;
+    padding: 20px;
+    margin-top: 10vw;
+    margin-left: 20vw;
+}
+
+footer{
+    width: 100vw;
+    height: 30vw;
+    background-color: black;
+    margin: 10px;
+    padding: 10px;
+    
+}

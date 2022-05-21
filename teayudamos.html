@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="keywords" content="diseño, cuadros, imágenes, foto, deco"> 
+    <meta name="description" content="Queres diseñar tus porpios cuadros, te ayudamos. Tenemos cientos de imagenes para tus diseños.">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Monica Cervellini">
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="teayudamos.css">
+    <title>Yo lo diseño</title>
+</head>
+
+<body id="body">
+    <div class="container1">
+        <div class="logo">
+        
+            <h1><a href="index2.html" title="Yo lo diseño. Arma tu deco a tu gusto."><img src="Logo2.png"></a></h1>
+        </div>
+
+        <div class="menu-btn">
+            <div class="menu_burguer"></div>
+        </div>
+
+        <p class="titulo">Yo lo diseño</p>
+
+        <div>
+            <nav class="menu1">
+                <a href="comprar.html" id="nava1">Comprar</a>
+                <a href="Suscribite.html" id="nava2">Suscribirte</a>
+                <a href="Login.html" id="nava3">Log in</a>
+                <a href="teayudamos.html">Te ayudamos?</a>
+            </nav>
+        </div>
+
+
+    </div>
+    <main>
+
+        <div id="contenedor-secciones-contacto">
+            <h2>Dejanos tu consulta y nos pondremos en contacto</h2>
+            <section id="formulario-contacto" class="container">
+                <form action='/formsended' method='post' name='formulario-contacto-vickys-art'><input type='hidden' name='form-name' value='formulario-contacto-vickys-art' />
+                    <div class="row">
+
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="nombre" class="form-label">Nombre</label>
+                                <input type="text" class="form-control" id="nombre" name="nombre" pattern="[a-zA-Z ]*" title="Utiliza únicamente caracteres alfabéticos" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="email" class="form-label">Correo electrónico</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="telefono" class="form-label">Teléfono (opcional)</label>
+                                <input type="tel" class="form-control" id="telefono" name="telefono">
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3">
+                                <label for="mensaje" class="form-label">Mensaje</label>
+                                <textarea class="form-control" id="mensaje" rows="5" name="comentarios" required></textarea>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mb-3"><button type="submit" class="btn btn-dark">Enviar</button></div>
+                        </div>
+                    </div>
+                </form>
+            </section>
+
+            <section id="datos-de-contacto">
+                <h3>También podés visitarnos en: </h3>
+                <iframe id="mapa-google" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.8495552959935!2d-58.403264184770784!3d-34.58267308046507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5620f9800e3%3A0x4bb039cbcf58d5df!2sAv.%20del%20Libertador%201902%2C%20C1425AAS%20CABA!5e0!3m2!1ses-419!2sar!4v1650231652749!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade""
+                    width="400" height="300" style="border:0;" allowfullscreen="false" loading="lazy"></iframe>
+            </section>
+        </div>
+    </main>
+</body>

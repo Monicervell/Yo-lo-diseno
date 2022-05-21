@@ -1,0 +1,123 @@
+
+
+
+body{  
+    font-family:'Montserrat', sans-serif;   
+    display: grid;
+    background-color: white;
+    
+}
+*{
+    list-style:none
+}
+
+.containerimagen {
+    background-color: whitesmoke;
+   
+}
+
+.titulo {
+    color: #014649;
+    font-size: xxx-large;
+    text-size-adjust: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: auto;
+    padding-top: 5px;
+        
+}
+.logo{
+    background-color: whitesmoke;
+    display: flex;
+    min-width: 25vw;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px; 
+    padding-right: 40px;
+    box-sizing: content-box;
+    float: left;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px; 
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+}
+
+
+nav a:hover{
+    background-color: #03979f;
+    text-emphasis-color: white;
+    
+}
+h2 {
+    font-size: x-large;
+    color: white;
+    font-style: italic;
+    
+    display: flex;
+    text-align: center;
+    width: 50vw;
+    height: 50px;
+    padding-top: 10px;
+
+}
+.menu1{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 80px;
+    left: 60px;
+    
+   
+}
+
+
+
+.group-imagenes {
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    padding-left: 5px;
+}
+
+
+.product-imágenes {
+    position: relative;
+
+}
+
+.product-imagenes img {
+    margin-bottom: 1rem;
+
+}
+
+.product-imagenes h3 {
+    font-size: 1.8rem;
+    text-align: center;
+    margin: 1rem;
+    height: 4rem;
+}
+
+.product-imagenes p {
+    font-size: 1.4rem;
+    color: #696868;
+    padding: 1rem;
+    align-self: flex-end;
+    margin-top: 1rem;
+    
+}
+
+.product-imagenes {
+    transform: scale(1.1);
+}
+

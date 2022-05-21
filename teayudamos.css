@@ -1,0 +1,76 @@
+body{  
+    font-family:'Montserrat', sans-serif;   
+    display: grid;
+    background-color: white;
+     
+}
+* {
+    list-style:none
+}
+
+.container1 {
+    background-color: whitesmoke;
+    
+}
+
+.titulo {
+    color: #014649;
+    font-size: xxx-large;
+    text-size-adjust: 10px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: auto;
+    padding-top: 5px;
+        
+}
+
+.logo{
+    background-color: whitesmoke;
+    display: flex;
+    min-width: 25vw;
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-left: 10px; 
+    padding-right: 40px;
+    box-sizing: content-box;
+    float: left;
+}
+
+.menu1{
+    background-color:whitesmoke;
+    display: flex;
+    justify-content: left;
+    padding: 5px;
+    margin-right: 5px;
+    margin-top: 80px;
+    left: 60px;
+    
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    padding: 10px 10px; 
+    font-size: medium;
+    font-style: italic;
+    font-weight: bold;
+    border-style: outset;
+    margin-left: 10px;
+    margin-right: 5px;
+    
+}
+
+
+nav a:hover{
+    background-color: #03979f;
+    text-emphasis-color: white;
+    
+}
+
+#contenedor-secciones-contacto {
+    text-align: center;
+    justify-items: center;
+    margin: 10px;
+}
+
+
